@@ -1,8 +1,8 @@
 import time
 
 print("Welcome to 'save logins' program!")
-
-next_dataset = input("Would like to write new data? yes/no: ")
+time.sleep(0.5)
+next_dataset = input("Would like to write new datasets? yes/no: ")
 
 while next_dataset=="yes":
     f = open("logindata.txt", "a")
@@ -20,7 +20,7 @@ while next_dataset=="yes":
     next_dataset = input("Would you like to save another login dataset? yes/no: ")
 else:
     print("Entered logins are saved!")
-    time.sleep(1)
+    time.sleep(0.5)
     readout_logins = input("Would you like to read out your current logins? yes/no: ")
     if readout_logins == "yes":
         f = open("logindata.txt", "r")
