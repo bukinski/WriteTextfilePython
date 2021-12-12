@@ -1,7 +1,7 @@
 import time
 
 print("Welcome to 'save logins' program!")
-time.sleep(0.6)
+time.sleep(0.5)
 next_dataset = input("Would like to write new datasets? yes/no: ")
 
 while next_dataset=="yes":
